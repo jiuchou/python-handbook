@@ -1,15 +1,29 @@
-# 打包发布
+# 打包发布现有项目
 
-* 参考
-  * [以正确的方式开源 Python 项目](https://www.oschina.net/translate/open-sourcing-a-python-project-the-right-way)
+> 说明：
+>
+> 1. 无法实现安装时将配置文件拷贝到固定目录
+> 2. 无法实现卸载时完全删除安装时涉及的目录
 
-问题
+## 前提
 
-Install过程： 配置文件未正确安装
+* [以正确的方式开源 Python 项目](https://www.oschina.net/translate/open-sourcing-a-python-project-the-right-way)
 
-Uninstall问题： 未清除所有安装内容
+## setuptools 和 setup.py文件
 
-`setup.py`
+### setup 特殊参数说明
+
+> packages
+>
+> ​	packages = []
+>
+> ​	packages = find_packages()
+>
+> include_package_data = True
+>
+> classifiers = []
+
+
 
 ```python
 from setuptools import setup, find_packages
@@ -55,10 +69,19 @@ setup(
 
 ## 扩展
 
-* [Building and Distributing Packages with Setuptools](https://setuptools.readthedocs.io/en/latest/setuptools.html#id4)[¶](https://setuptools.readthedocs.io/en/latest/setuptools.html#building-and-distributing-packages-with-setuptools)
+* [Distributing Python Modules (Legacy version)](https://docs.python.org/2/distutils/index.html)
+* [Building and Distributing Packages with Setuptools](https://setuptools.readthedocs.io/en/latest/setuptools.html#building-and-distributing-packages-with-setuptools)
+* [Python Packaging User Guide](https://python-packaging-user-guide.readthedocs.org/)
+* [PEP 427 -- The Wheel Binary Package Format 1.0](https://www.python.org/dev/peps/pep-0427/)
 * [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/#packaging-python-projects)
   * [python工程代码如何打包](https://blog.csdn.net/weixin_39202719/article/details/81905326)
 * [Python 库打包分发(setup.py 编写)简易指南](http://blog.konghy.cn/2018/04/29/setup-dot-py/)
 * [关于python中的setup.py](http://python.jobbole.com/82077/)
 * [Classifiers](https://pypi.org/classifiers/)
+
+参考
+
+* 
+* [Python中setup.py一些不为人知的技巧](https://www.cnblogs.com/yanxiatingyu/p/9278191.html)
+* [将python包发布到PyPI和制作whl文件](https://blog.csdn.net/winycg/article/details/80025432)
 
