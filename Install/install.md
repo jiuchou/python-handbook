@@ -18,19 +18,19 @@
 
 ```bash
 # 使用默认Python安装
-python -m pip install PackageName
-或
-pip install PackageName
+python -m pip install PackageName(==PackageVersion)
+或者
+pip install PackageName(==PackageVersion)
 
 # 使用Python2.7安装
-python2.7 -m pip install PackageName
+python2.7 -m pip install PackageName(==PackageVersion)
 或
-pip2.7 install PackageName
+pip2.7 install PackageName(==PackageVersion)
 
 # 使用Python3.7安装
-python3.7 -m pip install PackageName
+python3.7 -m pip install PackageName(==PackageVersion)
 或
-pip3.7 install PackageName
+pip3.7 install PackageName(==PackageVersion)
 ```
 
 #### 2.1.2 其他
