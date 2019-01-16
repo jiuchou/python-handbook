@@ -52,33 +52,56 @@ wheel包安装
 
 * [Django Installation](https://www.djangoproject.com/download/)
 
-#### 2.1.1 在线安装
+#### 2.2.1 在线安装
 
 ```bash
 pip install Django==2.1.5
 ```
 
-#### 2.1.2 离线安装
+#### 2.2.2 离线安装
 
-### 2.2 连接
+### 2.3 djangorestframework
 
-* [Django Installation](https://www.djangoproject.com/download/)
+* [djangorestframework Installation](https://www.django-rest-framework.org/#installation)
 
-#### 2.1.1 在线安装
+#### 2.3.1 在线安装
 
 ```bash
-pip install Django==2.1.5
+pip install djangorestframework
 ```
 
-#### 2.1.2 离线安装
+#### 2.3.2 离线安装
 
+### 2.4 mysqlclient
 
+* [mysqlclient Installation](https://pypi.org/project/mysqlclient/)
+
+#### 2.4.1 在线安装
+
+```bash
+pip install mysqlclient
+```
+
+#### 2.4.2 离线安装
+
+### 2.5 Pillow
+
+* [Pillow Installation](https://pillow.readthedocs.io/en/latest/installation.html)
+
+#### 2.5.1 在线安装
+
+```bash
+pip install Pillow
+```
+
+#### 2.5.2 离线安装
 
 ### 2.10 其他
 
-#### 2.1.1 在线安装
+* [Installation]()
 
+#### 2.10.1 在线安装
 
-#### 2.1.2 离线安装
+#### 2.10.2 离线安装
 
 
