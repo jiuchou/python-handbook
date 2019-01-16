@@ -12,9 +12,19 @@
 
 ## 2 安装 Python 包
 
-### 2.1 在线安装
+### 2.1 pip
 
-#### 2.1.1 pip在线安装
+#### 2.1.1 在线安装
+* [Pip Installation](https://pip.pypa.io/en/stable/installing/)
+
+1. pip不存在
+
+```bash
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3.7 get-pip.py
+```
+
+2. pip存在
 
 ```bash
 # 使用默认Python安装
@@ -33,11 +43,10 @@ python3.7 -m pip install PackageName(==PackageVersion)
 pip3.7 install PackageName(==PackageVersion)
 ```
 
-#### 2.1.2 其他
+#### 2.1.2 离线安装
 
-### 2.2 离线安装
+wheel包安装
 
-#### 2.2.1 wheel包安装
-
+### 2.2 其他
 
 
