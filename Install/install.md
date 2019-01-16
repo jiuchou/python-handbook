@@ -15,6 +15,7 @@
 ### 2.1 pip
 
 #### 2.1.1 在线安装
+
 * [Pip Installation](https://pip.pypa.io/en/stable/installing/)
 
 1. pip不存在
@@ -47,6 +48,37 @@ pip3.7 install PackageName(==PackageVersion)
 
 wheel包安装
 
-### 2.2 其他
+### 2.2 Django
+
+* [Django Installation](https://www.djangoproject.com/download/)
+
+#### 2.1.1 在线安装
+
+```bash
+pip install Django==2.1.5
+```
+
+#### 2.1.2 离线安装
+
+### 2.2 连接
+
+* [Django Installation](https://www.djangoproject.com/download/)
+
+#### 2.1.1 在线安装
+
+```bash
+pip install Django==2.1.5
+```
+
+#### 2.1.2 离线安装
+
+
+
+### 2.10 其他
+
+#### 2.1.1 在线安装
+
+
+#### 2.1.2 离线安装
 
 
