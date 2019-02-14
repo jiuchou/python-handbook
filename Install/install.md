@@ -104,4 +104,24 @@ pip install Pillow
 
 #### 2.10.2 离线安装
 
+## 3 virtualenv使用
+
+* 参考: [廖雪峰的官方网站之virtualenv](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000/001432712108300322c61f256c74803b43bfd65c6f8d0d0000)
+
+### 3.1 安装
+
+pip3 install virtualenv
+
+### 3.2 使用
+
+1.创建目录
+```bash
+mkdir myproject
+cd myproject
+```
+2.创建一个独立的Python运行环境，命名为venv
+```bash
+virtualenv --no-site-packages venv
+```
+3.退出当前的venv环境，使用deactivate命令
 
