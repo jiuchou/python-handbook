@@ -48,6 +48,19 @@ pip3.7 install PackageName(==PackageVersion)
 
 wheel包安装
 
+#### 2.1.3 旧版本安装
+
+**python2.6安装pip**
+
+curl https://bootstrap.pypa.io/2.6/get-pip.py -o get-pip.py
+```
+DEPRECATION: Python 2.6 is no longer supported by the Python core team, please upgrade your Python. A future version of pip will drop support for Python 2.6
+Collecting pip<10
+...
+You are using pip version 9.0.3, however version 19.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+```
+
 ### 2.2 Django
 
 * [Django Installation](https://www.djangoproject.com/download/)
