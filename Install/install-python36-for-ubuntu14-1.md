@@ -1,11 +1,11 @@
 # Ubuntu14.04 编译安装 Python3.6
 
-> 本文适用于Python3.6版本（本文档内容基于Python3.6.8版本演示），不适用Python3.7。
+> 本文适用于Python3.6版本，不适用Python3.7。
 >
-> 版本说明：
+> 演示版本说明：
 >
 > * Ubuntu系统：Ubuntu14.04.3 LTS, Trusty Tahr
-> * Python版本：python3.6
+> * Python版本：Python3.6.8
 
 ## 1 获取安装包
 
