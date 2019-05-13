@@ -1,3 +1,4 @@
+```bash
 function update_openssl() {
     cd ${ROOTPATH}
     pushd ${ROOTPATH}/packages/PythonRelevant
@@ -46,3 +47,4 @@ function python_relevant() {
 
 /usr/bin/openssl version -a | grep 1.0.1 && update_openssl
 which python3.7 || (python_relevant && pythonlib_relevant)
+```
